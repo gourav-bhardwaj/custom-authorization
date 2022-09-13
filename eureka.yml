@@ -6,9 +6,3 @@ services:
     image: govkumardocker/eureka-registry
     ports:
     - '8761:8761'
-    networks:
-    - oauth-net
-
-networks:
-  oauth-net:
-    driver: bridge
