@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  eureka-registry-app:
+    container_name: eureka-registry
+    image: govkumardocker/eureka-registry
+    ports:
+    - '8761:8761'
+    networks:
+    - oauth-net
+
+networks:
+  oauth-net:
+    driver: bridge
