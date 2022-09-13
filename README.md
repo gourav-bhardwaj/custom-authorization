@@ -1,7 +1,7 @@
 # custom-authorization-server
 Authorization Server with OAuth2 Client and Resource server
 
-- Run eureka.yaml (docker compose file)
+- Run docker-compose -f docker-compose.yml up (In cmd)
 - Run authorization-server application
 - Run gateway service
 - Run product-resource-service
